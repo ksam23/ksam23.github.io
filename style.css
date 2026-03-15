@@ -1,0 +1,113 @@
+body {
+    padding-top: 100px;
+    margin: 0;
+    font-family: 'Aleo', serif;
+    background-color: aliceblue;
+    color: #12186d;
+}
+
+.navbar {
+    background-color: #a4c1ff;
+    color: #170743;
+}
+
+.navbar .nav-link {
+  color: #170743 !important;
+  font-size: 22px;
+}
+
+.navbar .nav-link.active, .navbar .nav-link:hover {
+  color: aliceblue !important;
+}
+
+.navbar-brand{
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    color: #170743;
+    margin-left: 10px;
+}
+
+.cropped-img{
+    width: 100%;
+    height: 400px;      /* makes them equal height */
+    object-fit: cover;  /* crops instead of stretching */
+}
+
+.intro {
+    padding: 0 40px;
+    text-align: center;
+}
+
+.intro h1, .info h1  {
+    font-family: 'Marck Script', cursive;
+    font-size: 80px;
+}
+
+footer {
+    background-color: #a4c1ff;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.linkedinicon {
+    height: 49px;
+    width: 49px;
+    border-radius: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #12186d;
+    background-color: #12186d;
+    width: 100%;                    
+    margin: 20px auto;  
+}
+
+.info {
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+.info h2{
+    font-weight: 900;
+}
+.info h3 {
+    font-weight: 400;
+    font-style: italic;
+}
+ .edutitle{
+    font-size: 20px;
+ }
+
+ table {
+    font-size: 18px;
+    border-collapse: collapse;
+    background-color: #e0e9fc;
+    width: 100%;
+ }
+th{
+    font-size: 20px;
+    color:#12186d;
+    border: 3px solid #a4c1ff;
+    text-align: center;
+}
+
+td{
+    border: 3px solid #a4c1ff;
+    border-bottom: 3px solid #a4c1ff;
+    color:#12186d;
+}
+
+figcaption{
+    text-align: center;
+    color:#12186d;
+}
+
+.studyimg {
+    height: 500px;
+    width: 450px;
+}
+
+#descript{
+    font-size: 25px;
+}
