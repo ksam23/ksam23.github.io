@@ -9,6 +9,7 @@ body {
 .navbar {
     background-color: #a4c1ff;
     color: #170743;
+    font-family: 'Blinker', sans-serif;
 }
 
 .navbar .nav-link {
@@ -39,7 +40,7 @@ body {
 }
 
 .intro h1, .info h1  {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Blinker';
     font-size: 80px;
 }
 
